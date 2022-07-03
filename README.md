@@ -1,6 +1,6 @@
 # movies-api
 
-this website an application to training and finding out how apis work.
+This website is an application for training and finding out how APIs work.
 
 
-thank you for reading this........
+Thank you for reading this........
