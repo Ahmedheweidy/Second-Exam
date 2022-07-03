@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+/* NavBar Start */
+
+.hover-color {
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.hover-color:hover {
+    color: #b00808;
+    padding-left: 10px;
+}
+
+nav {
+    width: 15rem;
+    z-index: 999999;
+    transform: translateX(-82%);
+    transition: 1s;
+
+}
+
+i {
+    cursor: pointer;
+}
+
+.logoimg {
+    max-width: 40px;
+    height: 40px;
+}
+
+
+.fonts {
+    font-size: 3.5rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.fonts1 {
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* NavBar End */
+
+
+/* Search Start */
+
+.search {
+
+    font-size: 10px;
+}
+
+
+.search-bar {
+    text-align: center;
+
+}
+
+
+#moviesSearchInput {
+    width: 30%;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    caret-color: rgba(255, 255, 255, 0.5);
+    color: rgb(209, 4, 4);
+    font-size: 1rem;
+}
+
+#moviesSearchInput::placeholder {
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* Search End */
+
+
+
+/* Contant Start */
+
+
+
+.style-contant {
+    overflow: hidden;
+}
+
+.style-contant-text {
+    inset: 100%;
+    background-color: rgba(247, 235, 235, 0.75);
+    top: 0;
+    bottom: 0;
+    transition: 1.5s all;
+}
+
+.style-contant:hover .style-contant-text {
+    inset: 0;
+
+}
+
+/* Contant End */
+
+/* Contact US start */
+
+.formStyle input {
+
+    border: none;
+    outline: none;
+}
+
+.formStyle input::placeholder {
+    text-align: center;
+}
+
+.formStyle p {
+
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Contact US End */
+
+
+#done {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    inset: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
